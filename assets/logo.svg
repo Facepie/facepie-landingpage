@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;display=swap');
+      .logo-face {
+        font-family: 'Dancing Script', 'Pacifico', cursive;
+        font-size: 64px;
+        font-weight: 700;
+        fill: #3C1E0D;
+      }
+      .logo-pie {
+        font-family: 'Dancing Script', 'Pacifico', cursive;
+        font-size: 64px;
+        font-weight: 700;
+        fill: #C66929;
+      }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <text x="10" y="70">
+    <tspan class="logo-face">Face</tspan><tspan class="logo-pie">Pie</tspan>
+  </text>
+</svg>

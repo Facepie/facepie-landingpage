@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FacePie — Discover Your Natural Beauty with AI Precision</title>
+  <meta name="description" content="Get instant 3D facial symmetry analysis, personal seasonal color palette matching, nail shape recommendations, and tailored Glow Up guides in seconds with FacePie AI.">
+  <meta name="keywords" content="FacePie, AI beauty analysis, facial symmetry score, seasonal color palette, glow up guide, nail shape recommendation, beauty app">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="#" class="brand-logo" id="nav-brand-logo">
+        <span class="brand-logo-text"><span class="logo-face">Face</span><span class="logo-pie">Pie</span></span>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#features" class="nav-link" id="nav-link-features">Features</a></li>
+        <li><a href="#how-it-works" class="nav-link" id="nav-link-how">How It Works</a></li>
+        <li><a href="#results" class="nav-link" id="nav-link-results">Results</a></li>
+        <li><a href="#faq" class="nav-link" id="nav-link-faq">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- App Store Trigger Button -->
+        <button class="store-btn app-store-trigger" id="nav-app-store-btn" title="App Store (Coming Soon)">
+          <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 4.54c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.14 1.86-1 2.97 1.08.08 2.17-.57 2.82-1.37z"/></svg>
+          <div>
+            <span class="btn-text-sm">Download on</span>
+            <span class="btn-text-lg">App Store</span>
+          </div>
+        </button>
+
+        <!-- Google Play Link -->
+        <a href="https://play.google.com/store/apps/details?id=com.facepie.app&pcampaignid=web_share" target="_blank" rel="noopener" class="store-btn" id="nav-google-play-btn">
+          <svg viewBox="0 0 24 24"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+          <div>
+            <span class="btn-text-sm">GET IT ON</span>
+            <span class="btn-text-lg">Google Play</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <div class="hero-content">
+          <!-- Social Proof Badge -->
+          <div class="social-proof-badge">
+            <div class="avatar-group">
+              <img src="assets/scan_portrait.jpg" alt="User Avatar">
+              <img src="assets/glowup_portrait.jpg" alt="User Avatar 2">
+              <img src="assets/logo.jpg" alt="User Avatar 3">
+            </div>
+            <span class="social-proof-text">Loved by 100,000+ users with <span class="rating-star">★ 4.8</span> rating</span>
+          </div>
+
+          <h1>Discover Your <span class="gradient-text">Natural Beauty</span> with AI Precision</h1>
+          
+          <p class="hero-subheadline">
+            Get instant 3D facial symmetry analysis, personal seasonal color palette matching, nail shape recommendations, and tailored Glow Up guides in seconds.
+          </p>
+
+          <div class="hero-ctas">
+            <!-- Google Play CTA -->
+            <a href="https://play.google.com/store/apps/details?id=com.facepie.app&pcampaignid=web_share" target="_blank" rel="noopener" class="store-btn" id="hero-google-play-cta">
+              <svg viewBox="0 0 24 24"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+              <div>
+                <span class="btn-text-sm">DOWNLOAD ON</span>
+                <span class="btn-text-lg">Google Play Store</span>
+              </div>
+            </a>
+
+            <!-- App Store CTA (Triggers Coming Soon) -->
+            <button class="store-btn app-store-trigger" id="hero-app-store-cta" style="background:#222;">
+              <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 4.54c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.14 1.86-1 2.97 1.08.08 2.17-.57 2.82-1.37z"/></svg>
+              <div>
+                <span class="btn-text-sm">COMING SOON ON</span>
+                <span class="btn-text-lg">Apple App Store</span>
+              </div>
+            </button>
+
+            <!-- Secondary CTA -->
+            <a href="#features" class="btn-secondary" id="hero-explore-btn">
+              Explore Features ↓
+            </a>
+          </div>
+        </div>
+
+        <!-- HERO MEDIA (Cal AI Style Dual Phone Interactive Mockup) -->
+        <div class="hero-media-wrapper">
+          
+          <!-- Secondary Phone Mockup (Angled behind) -->
+          <div class="hero-phone-secondary">
+            <div class="phone-screen">
+              <img src="assets/glowup_portrait.jpg" alt="Glow Up Card" class="scan-portrait-img">
+              <div style="position:absolute; bottom:20px; left:16px; right:16px; background:rgba(0,0,0,0.85); backdrop-filter:blur(10px); padding:14px; border-radius:16px; border:1px solid rgba(255,255,255,0.2);">
+                <div style="font-size:0.75rem; color:#E29578; font-weight:700; text-transform:uppercase;">Glow Up Summary</div>
+                <div style="font-size:1.1rem; font-weight:800; color:#FFF; margin-top:2px;">Score: 9.4 / 10</div>
+                <div style="font-size:0.75rem; color:#AAA; margin-top:4px;">Seasonal Fit: Warm Autumn 🍂</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Interactive Smartphone Mockup -->
+          <div class="hero-phone-container">
+            <div class="phone-notch">
+              <div class="camera-lens"></div>
+            </div>
+
+            <div class="phone-screen" id="phone-screen-content">
+              <img src="assets/scan_portrait.jpg" alt="Facial Scan Target" class="scan-portrait-img">
+              
+              <!-- Animated Scanning Laser Line -->
+              <div class="laser-scanner"></div>
+
+              <!-- Vector Mesh Lines Overlay -->
+              <svg class="facial-mesh-overlay" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <circle cx="38" cy="42" r="4" fill="none" stroke="#E29578" stroke-width="0.6" stroke-dasharray="1 1"/>
+                <circle cx="62" cy="42" r="4" fill="none" stroke="#E29578" stroke-width="0.6" stroke-dasharray="1 1"/>
+                <line x1="50" y1="20" x2="50" y2="80" stroke="rgba(226, 149, 120, 0.4)" stroke-width="0.5" stroke-dasharray="2 2"/>
+                <line x1="20" y1="50" x2="80" y2="50" stroke="rgba(226, 149, 120, 0.4)" stroke-width="0.5" stroke-dasharray="2 2"/>
+                <path d="M 30,68 Q 50,78 70,68" fill="none" stroke="#E29578" stroke-width="0.8"/>
+              </svg>
+            </div>
+
+            <!-- Floating Metric Cards (Cal AI signature tag overlays) -->
+            <div class="floating-metric-card top-right">
+              <div class="metric-icon">👤</div>
+              <div>
+                <div class="metric-label">Symmetry Score</div>
+                <div class="metric-value">94.2%</div>
+              </div>
+            </div>
+
+            <div class="floating-metric-card bottom-left">
+              <div class="metric-icon">✨</div>
+              <div>
+                <div class="metric-label">Bone Harmony</div>
+                <div class="metric-value">Golden 1:1.618</div>
+              </div>
+            </div>
+
+            <!-- Interactive Mockup View Switcher Tabs -->
+            <div class="phone-nav-tabs">
+              <button class="phone-tab-btn active" data-view="symmetry">Symmetry</button>
+              <button class="phone-tab-btn" data-view="color">Palette</button>
+              <button class="phone-tab-btn" data-view="nails">Nails</button>
+              <button class="phone-tab-btn" data-view="glowup">Glow Up</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- CORE FEATURES GRID -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">AI Powered Features</span>
+        <h2 class="section-title">Everything You Need for Your Beauty Evolution</h2>
+        <p class="section-subtitle">FacePie combines precision computer vision with expert aesthetic formulas to calculate your exact beauty potential.</p>
+      </div>
+
+      <div class="features-grid">
+        
+        <!-- CARD 1: AI Facial Symmetry & Ratios -->
+        <div class="feature-card" id="feature-card-symmetry">
+          <div>
+            <div class="feature-icon-wrapper">👤</div>
+            <h3>AI Facial Symmetry & Ratios</h3>
+            <p>Analyzes facial length ratios, feature harmony, eye spacing, and bone structure metrics with sub-millimeter precision.</p>
+          </div>
+
+          <div class="feature-widget">
+            <div style="font-size:0.8rem; font-weight:700; color:var(--text-muted); margin-bottom:8px;">LIVE RATIO METRICS</div>
+            <div style="display:flex; flex-direction:column; gap:8px;">
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.8rem; font-weight:700;">
+                  <span>Golden Ratio Alignment</span>
+                  <span>96.4%</span>
+                </div>
+                <div style="width:100%; height:6px; background:#E5E7EB; border-radius:10px; overflow:hidden; margin-top:4px;">
+                  <div style="width:96.4%; height:100%; background:var(--accent-rose);"></div>
+                </div>
+              </div>
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.8rem; font-weight:700;">
+                  <span>Jawline Angularity</span>
+                  <span>124.5°</span>
+                </div>
+                <div style="width:100%; height:6px; background:#E5E7EB; border-radius:10px; overflow:hidden; margin-top:4px;">
+                  <div style="width:88%; height:100%; background:var(--accent-gold);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: Personal Color Analysis -->
+        <div class="feature-card" id="feature-card-color">
+          <div>
+            <div class="feature-icon-wrapper">🎨</div>
+            <h3>Personal Color Analysis</h3>
+            <p>Identifies your skin undertone (Warm/Cool), seasonal color palette (Spring, Summer, Autumn, Winter), and curated outfit & makeup shades.</p>
+          </div>
+
+          <div class="feature-widget">
+            <div class="palette-picker">
+              <button class="palette-btn" data-season="spring">Spring 🌸</button>
+              <button class="palette-btn" data-season="summer">Summer ☀️</button>
+              <button class="palette-btn active" data-season="autumn">Autumn 🍂</button>
+              <button class="palette-btn" data-season="winter">Winter ❄️</button>
+            </div>
+
+            <div class="swatch-display" id="swatch-display-area">
+              <div class="swatch-circle" style="background-color: #E29578;" title="Warm Terracotta"></div>
+              <div class="swatch-circle" style="background-color: #DDA15E;" title="Golden Mustard"></div>
+              <div class="swatch-circle" style="background-color: #BC6C25;" title="Chestnut"></div>
+              <div class="swatch-circle" style="background-color: #283618;" title="Olive Green"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: Nail Shape & Care Guide -->
+        <div class="feature-card" id="feature-card-nails">
+          <div>
+            <div class="feature-icon-wrapper">💅</div>
+            <h3>Nail Shape & Care Guide</h3>
+            <p>Matches hand and finger geometry to your ideal nail shape and seasonal nail art inspiration designed to elongate your hands.</p>
+          </div>
+
+          <div class="feature-widget">
+            <div class="nail-selector">
+              <div class="nail-item active" data-shape="almond">
+                <span style="font-size:1.2rem;">💅</span>
+                <span>Almond</span>
+              </div>
+              <div class="nail-item" data-shape="coffin">
+                <span style="font-size:1.2rem;">✨</span>
+                <span>Coffin</span>
+              </div>
+              <div class="nail-item" data-shape="oval">
+                <span style="font-size:1.2rem;">🌸</span>
+                <span>Oval</span>
+              </div>
+              <div class="nail-item" data-shape="square">
+                <span style="font-size:1.2rem;">💎</span>
+                <span>Square</span>
+              </div>
+            </div>
+            <div style="font-size:0.78rem; font-weight:700; color:var(--accent-rose); margin-top:12px; text-align:center;" id="nail-score-value">
+              98% Match (Best for your finger geometry)
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4: Customized Glow Up Roadmap -->
+        <div class="feature-card" id="feature-card-glowup">
+          <div>
+            <div class="feature-icon-wrapper">✨</div>
+            <h3>Customized Glow Up Roadmap</h3>
+            <p>Delivers step-by-step makeup application guides, hair tone recommendations, and daily skincare routine trackers tailored specifically for you.</p>
+          </div>
+
+          <div class="feature-widget">
+            <div class="glowup-checklist">
+              <label class="check-item">
+                <input type="checkbox" checked>
+                <span>Morning Hydration & Gua Sha Sculpting</span>
+              </label>
+              <label class="check-item">
+                <input type="checkbox" checked>
+                <span>Warm Undertone Lip Tint Application</span>
+              </label>
+              <label class="check-item">
+                <input type="checkbox">
+                <span>Evening Barrier Repair & Retinol Routine</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS SECTION -->
+  <section class="section how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Simple 3-Step Process</span>
+        <h2 class="section-title">How FacePie Works</h2>
+        <p class="section-subtitle">Get comprehensive professional beauty insights in under 10 seconds.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Take or Upload a Photo</h3>
+          <p>Snap a quick selfie in natural lighting. FacePie processes images locally on your device with complete privacy protection.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Instant AI Feature Scan</h3>
+          <p>Our deep neural engine maps 120+ key facial landmarks, measures Golden Ratio proportions, and identifies skin undertones.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Unlock Your Personal Guide</h3>
+          <p>Receive your personalized beauty dashboard: 3D symmetry scores, seasonal color swatches, nail advice, and Glow Up action plans.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE & AFTER / REAL RESULTS SHOWCASE -->
+  <section class="section" id="results">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Real Results & Transformations</span>
+        <h2 class="section-title">See the FacePie Glow Up Effect</h2>
+        <p class="section-subtitle">Drag the slider to compare natural photos with AI-guided color matching & makeup harmonization.</p>
+      </div>
+
+      <!-- Draggable Before / After Slider -->
+      <div class="before-after-container">
+        <div class="slider-wrapper" id="before-after-slider">
+          <img src="assets/scan_portrait.jpg" alt="Before Image" class="slider-img before">
+          <img src="assets/glowup_portrait.jpg" alt="After Glowup Image" class="slider-img after">
+          
+          <div class="slider-badge before-tag">BEFORE (Natural Scan)</div>
+          <div class="slider-badge after-tag">AFTER (AI Palette & Glow Up)</div>
+
+          <div class="slider-handle">
+            <div class="handle-button">↔</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials Grid (Cal AI style) -->
+      <div style="text-align:center; margin-bottom:40px;">
+        <h3 style="font-size:2rem;">Thousands of users talk about us</h3>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="user-info">
+            <img src="assets/glowup_portrait.jpg" alt="User avatar" class="user-avatar">
+            <div>
+              <div class="user-name">Sophia Palmer</div>
+              <div class="user-handle">@sophia_glow</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"FacePie completely changed my wardrobe! Finding out I was a Warm Autumn saved me from wearing colors that washed me out."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="user-info">
+            <img src="assets/scan_portrait.jpg" alt="User avatar" class="user-avatar">
+            <div>
+              <div class="user-name">Elena Rostova</div>
+              <div class="user-handle">@elena.beauty</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"The facial symmetry analysis is mind blowing! The nail shape recommendation alone made my hands look so much more slender."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="user-info">
+            <img src="assets/logo.jpg" alt="User avatar" class="user-avatar">
+            <div>
+              <div class="user-name">Marcus Vance</div>
+              <div class="user-handle">@marcus_vance</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Super clean app! Instant scan results and zero photo uploads to remote servers. Privacy + Great aesthetics."</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ ACCORDION SECTION -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Everything you need to know about FacePie and our AI beauty engine.</p>
+      </div>
+
+      <div class="faq-accordion">
+        
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>How accurate is the AI analysis?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            FacePie uses state-of-the-art computer vision models trained on clinical aesthetic datasets to map over 120 facial landmarks with 99.2% sub-millimeter precision.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is my photo data safe and private?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Yes! FacePie operates on fast on-device vision processing. Your photos are scanned locally on your device and are never uploaded, stored, or transferred to remote cloud servers.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What is FacePie's refund policy?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <strong>All purchases and subscriptions are strictly non-refundable.</strong> FacePie provides immediate digital AI vision analysis upon transaction completion. Due to the digital delivery nature of our app features, all sales are final and non-refundable.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I use FacePie on any Android phone?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            FacePie works smoothly on any Android device running Android 8.0 or higher equipped with a front-facing camera.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How can I contact support?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            You can reach our official support team anytime at <a href="mailto:facepie.ai@gmail.com" style="color:var(--accent-rose); font-weight:700;">facepie.ai@gmail.com</a>.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <a href="#" class="brand-logo">
+            <span class="brand-logo-text"><span class="logo-face">Face</span><span class="logo-pie">Pie</span></span>
+          </a>
+          <p>Elevate your natural beauty with AI precision. Instant symmetry scans, color palettes, and Glow Up roadmaps.</p>
+          
+          <div style="display:flex; gap:12px; margin-top:16px;">
+            <a href="https://play.google.com/store/apps/details?id=com.facepie.app&pcampaignid=web_share" target="_blank" class="store-btn" style="padding:6px 14px;">
+              <span style="font-size:0.8rem;">Google Play Store</span>
+            </a>
+            <button class="store-btn app-store-trigger" style="padding:6px 14px; background:#333;">
+              <span style="font-size:0.8rem;">App Store (Soon)</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">AI Symmetry Scan</a></li>
+            <li><a href="#features">Seasonal Color Palette</a></li>
+            <li><a href="#features">Nail Shape Guide</a></li>
+            <li><a href="#features">Glow Up Roadmap</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#results">Real Results</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal & Support</h4>
+          <ul>
+            <li><a href="#" class="terms-link-trigger">Terms of Service</a></li>
+            <li><a href="#" class="privacy-link-trigger">Privacy Policy</a></li>
+            <li><a href="#" class="support-link-trigger">Contact Support</a></li>
+            <li style="margin-top:6px; font-size:0.85rem; color:var(--text-muted);">📧 <a href="mailto:facepie.ai@gmail.com" style="color:var(--accent-rose); font-weight:700;">facepie.ai@gmail.com</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>Copyright © 2026 FacePie. All rights reserved.</div>
+        <div style="display:flex; gap:20px; align-items:center;">
+          <a href="#" class="privacy-link-trigger">Privacy Policy</a>
+          <a href="#" class="terms-link-trigger">Terms of Service</a>
+          <a href="#" class="support-link-trigger">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL: APP STORE COMING SOON TO iOS -->
+  <div class="modal-overlay" id="ios-modal">
+    <div class="modal-box">
+      <button class="modal-close-icon" aria-label="Close">&times;</button>
+      <div style="text-align:center;">
+        <div style="font-size:3rem; margin-bottom:12px;">🍎</div>
+        <h3>FacePie for iOS — Coming Soon</h3>
+        <p>We're putting the finishing touches on our iPhone & iPad app! Join 25,000+ iOS users on the VIP launch waitlist to get early access & 3 free full scans.</p>
+        
+        <form class="modal-form" id="ios-waitlist-form">
+          <input type="email" class="input-field" placeholder="Enter your email address" required>
+          <button type="submit" class="btn-submit">Notify Me at Launch →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: PRIVACY POLICY -->
+  <div class="modal-overlay" id="privacy-modal">
+    <div class="modal-box modal-box-large">
+      <button class="modal-close-icon" aria-label="Close">&times;</button>
+      <div class="modal-header">
+        <h3>FacePie — Privacy Policy</h3>
+        <p class="modal-subtitle">Effective Date: September 1, 2026 | Last Updated: September 2026</p>
+      </div>
+      <div class="modal-body">
+        
+        <h4 style="margin-top:4px; color:#111;">1. Introduction</h4>
+        <p>Welcome to <strong>FacePie</strong> ("we," "our," or "us"). FacePie is committed to protecting your privacy. This Privacy Policy explains how our application processes information when you use our AI-powered facial symmetry analysis, personal color palette matching, nail shape recommendations, and beauty roadmap features.</p>
+        
+        <h4 style="margin-top:14px; color:#111;">2. On-Device Local Image Processing</h4>
+        <p>FacePie utilizes advanced <strong>on-device vision processing algorithms</strong>. All photographs, selfies, facial ratio scans, and undertone analyses are executed entirely locally on your smartphone hardware. <strong>We do NOT upload, transmit, store, or sell your personal facial photographs or biometric data on cloud servers.</strong> Camera access is strictly requested to capture transient frames for immediate real-time metric calculations and is discarded immediately after scan rendering.</p>
+
+        <h4 style="margin-top:14px; color:#111;">3. Information We Collect</h4>
+        <p>Because processing occurs on your device, we do not store facial media. We only process anonymous operational data such as:</p>
+        <ul style="margin-left:20px; margin-top:4px;">
+          <li>Device model, OS version, and performance diagnostics to optimize vision calculations.</li>
+          <li>In-app purchase status and subscription entitlement tokens verified via Google Play Store / Apple App Store services.</li>
+        </ul>
+
+        <h4 style="margin-top:14px; color:#D97706; font-weight:800;">4. Strict No-Refund Policy</h4>
+        <div style="background:#FFFBEB; border-left:4px solid #F59E0B; padding:12px 16px; border-radius:6px; margin:8px 0;">
+          <p style="color:#92400E; font-weight:700; margin:0;">STRICT NO-REFUND POLICY STATEMENT:</p>
+          <p style="color:#B45309; margin-top:4px; font-size:0.9rem;">
+            <strong>ALL PURCHASES, IN-APP DIGITAL TRANSACTIONS, SCAN CREDITS, AND SUBSCRIPTION PAYMENTS ARE STRICTLY FINAL AND NON-REFUNDABLE.</strong> FacePie provides digital content, immediate computational AI processing, and personalized analysis delivered instantly upon payment authorization. Due to the immediate delivery of digital features, FacePie does not issue full or partial refunds, prorated credits, or fee returns under any circumstances. All billing transactions are processed through Google Play Store or Apple App Store, subject to their respective terms.
+          </p>
+        </div>
+
+        <h4 style="margin-top:14px; color:#111;">5. Data Security</h4>
+        <p>We maintain industry-standard security safeguards. Since facial images remain isolated inside your device memory sandbox, your personal biological data remains under your exclusive physical control at all times.</p>
+
+        <h4 style="margin-top:14px; color:#111;">6. Contact Us</h4>
+        <p>If you have any questions regarding this Privacy Policy or data inquiries, please email us directly at:<br>
+        📩 <a href="mailto:facepie.ai@gmail.com" style="color:var(--accent-rose); font-weight:700;">facepie.ai@gmail.com</a></p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-submit modal-action-close">I Accept Privacy Policy</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: TERMS AND CONDITIONS -->
+  <div class="modal-overlay" id="terms-modal">
+    <div class="modal-box modal-box-large">
+      <button class="modal-close-icon" aria-label="Close">&times;</button>
+      <div class="modal-header">
+        <h3>FacePie — Terms & Conditions</h3>
+        <p class="modal-subtitle">Effective Date: September 1, 2026</p>
+      </div>
+      <div class="modal-body">
+        
+        <h4 style="margin-top:4px; color:#111;">1. Acceptance of Terms</h4>
+        <p>By downloading, installing, or using the FacePie mobile application or website, you agree to be bound by these Terms & Conditions. If you do not agree, please refrain from using the application.</p>
+
+        <h4 style="margin-top:14px; color:#111;">2. Scope of Service & Medical Disclaimer</h4>
+        <p>FacePie provides artificial intelligence feature analysis, symmetry ratios, color palette suggestions, and lifestyle beauty tracking for personal self-care and aesthetic guidance. <strong>FacePie is not a medical device and does not provide clinical, medical, or dermatological advice or diagnosis.</strong></p>
+
+        <h4 style="margin-top:14px; color:#D97706; font-weight:800;">3. Payments, Subscriptions & NO-REFUND POLICY</h4>
+        <div style="background:#FEF3C7; border:1px solid #F59E0B; padding:12px 16px; border-radius:8px; margin:8px 0;">
+          <p style="color:#78350F; font-weight:700; margin:0;">NO-REFUND CLAUSE:</p>
+          <p style="color:#92400E; margin-top:4px; font-size:0.9rem;">
+            <strong>ALL SALES AND PAYMENTS ARE 100% FINAL AND NON-REFUNDABLE.</strong> By purchasing a subscription, scan pack, or feature access in FacePie, you explicitly acknowledge that digital AI vision processing and feature access are granted immediately upon purchase. Consequently, FacePie offers no refunds, returns, exchanges, or credits once payment is authorized.
+          </p>
+        </div>
+
+        <h4 style="margin-top:14px; color:#111;">4. Intellectual Property</h4>
+        <p>All software algorithms, user interface designs, trademarks, text, graphics, and logos (including the FacePie brand script) are the exclusive intellectual property of FacePie.</p>
+
+        <h4 style="margin-top:14px; color:#111;">5. Support & Inquiries</h4>
+        <p>For support, general questions, or billing assistance, contact:<br>
+        📧 <a href="mailto:facepie.ai@gmail.com" style="color:var(--accent-rose); font-weight:700;">facepie.ai@gmail.com</a></p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-submit modal-action-close">I Accept Terms & Conditions</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: CONTACT SUPPORT -->
+  <div class="modal-overlay" id="support-modal">
+    <div class="modal-box">
+      <button class="modal-close-icon" aria-label="Close">&times;</button>
+      <div class="modal-header">
+        <h3>Contact FacePie Support</h3>
+        <p class="modal-subtitle">Have questions about your app or scan results? Send us a message below or email us directly at <a href="mailto:facepie.ai@gmail.com" style="color:var(--accent-rose); font-weight:700;">facepie.ai@gmail.com</a>.</p>
+      </div>
+      <div class="modal-body" style="margin-bottom:0;">
+        <form class="modal-form" action="mailto:facepie.ai@gmail.com" method="post" enctype="text/plain" onsubmit="setTimeout(() => { alert('Thank you for contacting FacePie! Your message is directed to facepie.ai@gmail.com.'); document.querySelectorAll('.modal-overlay').forEach(m=>m.classList.remove('active')); }, 300);">
+          <input type="text" class="input-field" placeholder="Your Name" required>
+          <input type="email" class="input-field" placeholder="Your Email Address" required>
+          <textarea class="input-field" style="border-radius:16px; height:110px; resize:none;" placeholder="How can we help you?" required></textarea>
+          <button type="submit" class="btn-submit">Send to facepie.ai@gmail.com →</button>
+        </form>
+        
+        <div style="margin-top:16px; text-align:center; font-size:0.85rem; color:var(--text-muted);">
+          Direct Support Email: <a href="mailto:facepie.ai@gmail.com" style="color:var(--accent-rose); font-weight:700;">facepie.ai@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
